@@ -1,0 +1,15 @@
+body{
+    font-family: Calibri, SansSerif;
+}
+
+a{
+    display: block;
+    width: max-content;
+    color: indianred;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+a:hover{
+    border-bottom: 1px solid pink;
+}
