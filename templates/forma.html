@@ -1,12 +1,14 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Форма</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
 </head>
 <body>
 
-<form method="POST">
+<form method="POST" enctype="multipart/form-data">
     {% csrf_token %}
     <table>
         {{ form }}
